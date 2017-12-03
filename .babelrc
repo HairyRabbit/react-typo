@@ -1,0 +1,21 @@
+{
+    "presets": [
+        "@babel/preset-react",
+        "@babel/preset-flow",
+        ["@babel/preset-env", {
+            "target": {
+                "node": true
+            },
+            "modules": false,
+            "loose": true
+        }]],
+    "plugins": [
+        "@babel/plugin-proposal-object-rest-spread"
+        "lodash"
+    ],
+    "env": {
+        "test": {
+            "plugins": ["transform-es2015-modules-commonjs"]
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "name": "react-typo",
+    "version": "0.0.1",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/yuffiy/react-typo.git"
+    },
+    "author": "rabbit <yfhj1990@hotmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/yuffiy/react-typo/issues"
+    },
+    "homepage": "https://github.com/yuffiy/react-typo#readme",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "description": "",
+    "devDependencies": {
+        "@babel/core": "^7.0.0-beta.34",
+        "@babel/preset-env": "^7.0.0-beta.34",
+        "@babel/preset-flow": "^7.0.0-beta.34",
+        "@babel/preset-react": "^7.0.0-beta.34",
+        "highlight.js": "^9.12.0",
+        "prismjs": "^1.8.4",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
+    }
+}
